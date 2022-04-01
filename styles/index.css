@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Roboto:wght@400;900&display=swap");
+
+/*
+font-family: "Poppins", sans-serif;
+font-family: "Roboto", sans-serif; */
+
+#searchbar {
+  height: 100px;
+  width: 98%;
+  background-color: rgb(18, 112, 18);
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#searchbar > input {
+  height: 50px;
+  width: 550px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(82, 78, 78);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* results */
+#results {
+  height: 300px;
+  width: 553px;
+  margin: auto;
+  /* border: 1px solid black; */
+  margin-top: -20px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-top: 20px;
+}
+
+#divtag {
+  display: flex;
+  /* border: 1px solid red; */
+  height: 80px;
+  /* justify-content: space-between; */
+  gap: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: rgb(184, 143, 8);
+  transition: background-color 200ms ease;
+  cursor: pointer;
+}
+
+#divimg > img {
+  height: 100%;
+  width: 100px;
+  object-fit: contain;
+}
+
+#divinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding-bottom: 10px;
+  gap: 40px;
+}
+
+#divtag > h3 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+#fooditem {
+  margin: auto;
+  display: flex;
+  height: 400px;
+  width: 1200px;
+  gap: 35px;
+  margin-bottom: 500px;
+  margin-top: -200px;
+}
+#divleft {
+  width: 40%;
+}
+#divleft > img {
+  height: 340px;
+  width: 340px;
+  object-fit: contain;
+}
+
+#divleft > p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+#divright {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#divright > h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  color: green;
+  margin-top: -10px;
+}
+
+#divright > h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  margin-top: -20px;
+}
+
+#divright > p {
+  margin-top: -10px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 200px;
+  letter-spacing: 0.02em;
+}
+
+#divright > p:nth-last-child(3) {
+  margin-bottom: 40px;
+}

@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Roboto:wght@400;900&display=swap");
+/*
+font-family: "Poppins", sans-serif;
+font-family: "Roboto", sans-serif; */
+
+#fooditem {
+  margin: auto;
+  display: flex;
+  height: 400px;
+  width: 1200px;
+  gap: 35px;
+  margin-bottom: 500px;
+  margin-top: 80px;
+}
+
+#divleft > img {
+  height: 340px;
+  width: 340px;
+  object-fit: contain;
+}
+
+#divleft > p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+#divright {
+  display: flex;
+  flex-direction: column;
+}
+
+#divright > h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  color: green;
+  margin-top: -10px;
+}
+
+#divright > h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  margin-top: -20px;
+}
+
+#divright > p {
+  margin-top: -10px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 200px;
+  letter-spacing: 0.02em;
+}
+
+#divright > p:nth-last-child(3) {
+  margin-bottom: 40px;
+}
